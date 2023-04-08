@@ -1,0 +1,36 @@
+body {
+  background-color:#262626;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.main-logo img {
+  width: 500px;
+  /* opacity: 0.3; */
+
+
+  border-radius: 50%;
+}
+
+p {
+  color: #b6fa23;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+}
+ a:hover {
+  color:#b6fa23;
+ }
+
+
+ 
