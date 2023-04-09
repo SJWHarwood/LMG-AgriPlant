@@ -33,4 +33,24 @@ a {
  }
 
 
- 
+ /* Media queries */
+
+ @media(max-width: 600px){
+  p {
+    font-size: 15px;
+ }
+ .main-logo img {
+  width: 400px;
+  border-radius: 50%;
+}
+ }
+
+ @media(max-width: 375px){
+  p {
+    font-size: 13px;
+ }
+ .main-logo img {
+  width: 375px;
+  border-radius: 50%;
+}
+ }
